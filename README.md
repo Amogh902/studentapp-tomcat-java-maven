@@ -100,7 +100,7 @@ tree my-app/
 * Repo URL: `https://github.com/iamtruptimane/student-app.git`
 * Branch: `main`
 
-📸 *Screenshot: Jenkins job configuration page*
+![](/maven-app-img/job-creation.png)
 
 ---
 
@@ -159,7 +159,7 @@ pipeline {
 }
 ```
 
-📸 *Screenshot: Jenkins console output showing build + deploy success*
+![](/maven-app-img/build-successful.png)
 
 ---
 
@@ -168,10 +168,10 @@ pipeline {
 Visit your deployed application at:
 
 ```
-http://<TOMCAT_SERVER_IP>:8080/
+http://<Student-app-SERVER-IP>:8080/
 ```
 
-📸 *Screenshot: Running Java app on browser*
+![](/maven-app-img/app-output.png)
 
 ---
 
